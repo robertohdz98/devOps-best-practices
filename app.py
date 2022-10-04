@@ -35,7 +35,7 @@ def make_change(amount):
     """Gives Correct Change"""
 
     result = change(float(amount))
-    click.echo(click.style(f"Change for {amount}:", fg="red"))
+    click.echo(click.style(f"Change for {amount}:", fg="blue"))
     for correct_change in result:
         for num, coin in correct_change.items():
             click.echo(click.style(f"{coin}: {num}", fg="green"))
