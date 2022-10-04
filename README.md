@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/robertohdz98/DevOps-Best-Practices/actions/workflows/main.yml/badge.svg)](https://github.com/robertohdz98/DevOps-Best-Practices/actions/workflows/main.yml)
+
 # DevOps-Best-Practices
 This is a repository for learning about DevOps 
 
