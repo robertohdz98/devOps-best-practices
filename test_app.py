@@ -3,7 +3,8 @@ from click.testing import CliRunner
 
 
 def test_change():
-    assert [{5: "quarters"}, {1: "nickels"}, {4: "pennies"}] == app.change(1.34)
+    assert [{5: "quarters"}, {1: "nickels"}, {4: "pennies"}] == \
+         app.change(1.34)
 
 
 def test_app():
